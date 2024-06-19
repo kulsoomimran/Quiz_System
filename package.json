@@ -1,0 +1,24 @@
+{
+  "name": "k901-quiz-system",
+  "version": "1.0.0",
+  "description": "This is a cli based Quiz",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "k901-quiz-system": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
